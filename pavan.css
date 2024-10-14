@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  body{
+    margin: 30px;
+    background-color: rgb(12, 12, 12);
+
+  }
+  .head{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(50, 240, 85);
+  }
+.images{
+    margin: 30px;
+   display: flex;
+    justify-content: space-evenly; 
+  }
+  
+.content{
+    transition: 1s;
+  }
+  .content img{
+    width: 400px;
+    position: absolute;
+    height: 300px;
+    box-shadow: 2px 5px 5px rgb(64, 242, 33); 
+  }
+  .content h1{
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(10, 227, 29);
+  }
+  .content p{
+    font-size: 20px; 
+    color: #f5f2f2;
+  }
+  .content a{
+    color: #2fe63b;
+    font-size: 30px;
+    padding: 30px;
+  }
+  .mm{
+    text-align: center;
+   transform: translateY(-200px);
+   position: relative;
+   top: 250px;
+    opacity: 0;
+    height: 300px;
+    width: 400px;
+    transition: 1s;
+   backdrop-filter: blur(5px);
+   padding-top: 60px;
+  }
+  .content:hover > .mm:hover{
+   opacity: 1;
+   transform: translateY(-250px);
+  }
+  .content:hover{
+    transform: scale(1.05);
+  }
+  #contact{
+    margin-top: 20px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+  }
+  #contact:hover{
+    background-color: rgb(68, 51, 51);
+  }
+  #contact h1{
+    font-size: 60px;
+    padding: 10px;
+    color: #2fe63b;
+  }
+  #contact p{
+    font-size: 30px;
+    padding: 10px;
+  }
+  .contact-left{
+    flex-basis: 35%;
+  }
+  .contact-right{
+    flex-basis: 60%;
+  }
+  .contact-left {
+  margin-top: 30px;
+  }
+  .contact-left p i{
+    color: rgb(72, 239, 64);
+    margin-right: 15px;
+    font-size: 30px;
+  }
+  .IONS{
+    margin-top: 30px;
+  }
+  .IONS a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #f7eded;
+    display: inline-block;
+    transition: transform 0.5s;
+  }
+  .IONS a:hover{
+    color:#20e32a;
+    transform: translateY(-5px);
+  }
+  .guna.guna2{
+    display: inline-block;
+    background-color: #0c0c0c;
+    padding: 14px 40px;
+    font-size: 18px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: antiquewhite;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #2fe63b;
+    outline: none;
+    border: none;
+  }
+  .guna.guna2:hover{
+    background-color: white;
+    color: #0c0c0c;
+  }
+  .contact-right form{
+    width: 100%;
+    
+  }
+  form input,form textarea{
+    width: 80%;
+    border: 0;
+    outline: none;
+    background-color: #f5f2f2;
+    padding: 15px;
+    margin: 15px 0;
+    color: rgb(18, 17, 17);
+    font-size: 18px;
+    border-radius: 6px;
+  }
+  form .guna2{
+   text-align: center;
+   background-color: rgb(19, 19, 19);
+    font-size: 18px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 3px rgb(40, 232, 37);
+    padding: 14px 30px ;
+    border-radius: 30px;
+    color: white;
+  }
+  form .guna2:hover{
+    background-color: white;
+    color: #0c0c0c;
+  }
